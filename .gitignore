@@ -1,3 +1,6 @@
+vendorcalendar/node_modules
+api/node_modules
+
 # Logs
 logs
 *.log
