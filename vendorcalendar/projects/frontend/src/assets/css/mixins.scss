@@ -1,0 +1,288 @@
+@mixin form-input-style {
+    background: #F5F7FF;
+    border: 1px solid $primary-color;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 54px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 16px;
+    font-family: $secondary_font_family;
+    color: $primary-color;
+}
+
+@mixin page-title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 60px;
+    color: #000000;
+    font-family: $primary_font_family;
+}
+@mixin common-btn{
+    font-family: $secondary_font_family;
+    background: $primary-color;
+    border: 1px solid $white_bg;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 150px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 50px;
+    text-align: $center_text;
+    text-transform: uppercase;
+    color: $white_bg;
+    display: block;
+    text-decoration: none;
+}
+@mixin forgot-label{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: $center_text;
+    text-decoration-line: underline;
+    color: #373737;
+    font-family: $secondary_font_family;
+    padding-left: 30px;
+}
+@mixin  title-bg {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 61px;
+    color: $white_bg; 
+    font-family: $secondary_font_family;
+    background: $primary-color; 
+    display: block;
+    padding-left: 25px;
+}
+@mixin  responsivetitle-bg{
+    font-size: 20px;
+    text-align: $center_text;
+    padding-left: 0;
+}
+@mixin steps-p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: $center_text;
+    color: #000000;
+    font-family: $primary_font_family;
+}
+@mixin  responsivesteps-p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+@mixin form-label{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    text-align: $center_text;
+    color: #171717;
+    font-family: $secondary_font_family;
+}
+@mixin responsiveform-label{
+    font-size: 16px;
+}
+@mixin next-btn{
+    background: $white_bg;
+    border: 1px solid $primary-color;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 119px;
+    line-height:54px;
+    font-family: $secondary_font_family;
+    display: block;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 15px;
+    position: relative;
+    padding:0 25px;
+    color:$primary-color;
+}
+@mixin back-btn{
+    background: $white_bg;
+    border: 1px solid $primary-color;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 100px;
+    line-height:50px;
+    font-family: $secondary_font_family;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    position: relative;
+    text-align: $center_text;
+    color: $primary-color;
+}
+
+@mixin common_para{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #535353;
+}
+
+@mixin bluesmall-title{
+    font-family: $secondary_font_family;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: $primary-color;
+}
+@mixin responsive-bluesmall-title {
+    font-size: 30px;
+}
+@mixin bluelarge-title{
+    font-family: $primary_font_family;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 135%;
+    color: $primary-color;
+}
+@mixin responsive-bluelarge-title {
+    font-size: 35px;
+}
+
+@mixin p16{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: $secondary_font_family;
+}
+
+
+@mixin paginationblock-title {
+    font-family: $secondary_font_family;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+
+}
+
+@mixin paginationblock-para{
+    font-family: $secondary_font_family;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #696969;
+}
+
+@mixin pagination-btn {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: $primary-color;
+    text-decoration: none;
+    position: relative;
+
+}
+@mixin pagination-btn-before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: -25px;
+    background-size: cover;
+    top: -2px;
+}
+@mixin chat-title {
+    font-family: $secondary_font_family;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+
+}
+@mixin chat-para {
+    font-family: $secondary_font_family;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 0;
+}
+
+
+@mixin vendoruser-wrapper-style{
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+@mixin  pagination-arrow-style {
+    background:$primary-color !important;
+    border-radius: 5px;
+    color: $white_bg;
+    width: 45px;
+    height: 45px;
+    padding: 8px;
+    text-align: center;
+}
+
+@mixin placeholder-style {
+    color: $primary-color;
+    font-family: $secondary_font_family;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+
+@mixin common-small-btn {
+    width: 100%;
+    max-width: 120px;
+    font-family: $secondary_font_family;
+    background: $primary-color;
+    border: 1px solid $white_bg;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: $center_text;
+    text-transform: uppercase;
+    color: $white_bg;
+    display: block;
+    text-decoration: none;
+
+}
+
+@mixin add-with-plus {
+    width: 100%;
+    border-radius: 5px;
+    color: $white_bg;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    background: #556EE6;
+    background-size: 18px;
+    text-align: left;
+    max-width: 175px;
+    text-align: center;
+    &:hover{
+        color: $white_bg;
+    }
+}

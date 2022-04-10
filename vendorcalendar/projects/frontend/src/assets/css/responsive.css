@@ -1,0 +1,835 @@
+@media screen and (min-width: 1200px) and (max-width: 1399.5px) {
+  .useraboutdetails .shop-highlight .shop-highlight-wrapper .shop-desc {
+    max-width: 480px;
+  }
+  .add-announcement {
+    font-size: 14px !important;
+    padding-left: 10px !important;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1399.5px) {
+  .user-dashboard .user-menubar h3 {
+    font-size: 22px;
+    text-align: center;
+    padding-left: 0;
+  }
+  .single-subscriber-block img {
+    width: 100%;
+  }
+  .add-announcement {
+    font-size: 12px;
+    padding-left: 2px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.5px) {
+  .contactus .contact-wrapper {
+    padding: 80px 0;
+  }
+  .useraboutdetails .shop-highlight .shop-highlight-wrapper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 30px;
+  }
+  .useraboutdetails .shop-highlight .shop-highlight-wrapper .shop-desc {
+    margin: 0 25px;
+  }
+  .useraboutdetails .shop-highlight .shop-highlight-wrapper .subscribe {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+  .useraboutdetails .aboutdetail-content .userchat-content .userchat-content-wrapper .userchat-left-block ul li a {
+    font-size: 14px;
+  }
+  .vendor-shop-content .userchat-content-wrapper .userchat-left-block {
+    width: 25%;
+  }
+  .vendor-shop-content .userchat-content-wrapper .userchat-right-block {
+    width: 75%;
+  }
+  .vendor-shop-content .userchat-content-wrapper .userchat-left-block ul li a {
+    font-size: 14px;
+  }
+  .vendor-shop-content .userchat-content-wrapper .userchat-left-block .plus:after {
+    right: 0;
+  }
+  .vendor-shop-content .userchat-content-wrapper .userchat-left-block h4 {
+    font-size: 14px;
+  }
+  .bank-info .steps-section .steps-wrapper:after {
+    width: 66%;
+    left: 17%;
+  }
+  .useraboutdetails .aboutdetail-content .userchat-content .userchat-content-wrapper .userchat-right-block .userchatting .receiver-chat-block {
+    left: 50px;
+  }
+  .useraboutdetails .shop-highlight .shop-highlight-wrapper .plan-detail .subscribe {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.5px) {
+  .client-testimonials .stories-left {
+    padding: 0;
+  }
+  .vendor-login .login-data .login-form .links-block .forgot-pwd {
+    padding-left: 5px;
+    font-size: 15px;
+  }
+  .vendor-registration .registration-data h3 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .bank-info .steps-section .steps-wrapper:after {
+    width: 65%;
+  }
+  .contactus .contact-wrapper {
+    padding: 10px 0;
+  }
+  .user-dashboard .user-menubar h3 {
+    font-size: 20px;
+  }
+  .steps-section .steps-wrapper .single-step p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .shop-info .steps-section .steps-wrapper .lines:after {
+    width: 215%;
+  }
+  .vendor-shop-content .userchat-content-wrapper .userchat-left-block .plus:after {
+    right: 0;
+  }
+  .vendor-chat-main .userchat-right-block {
+    padding-bottom: 0 !important;
+  }
+  .single-subscriber-block img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991.5px) {
+  #navbarNav {
+    position: absolute;
+    top: 40px;
+    width: 190px;
+    right: 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    z-index: 999;
+  }
+  .navbar ul li {
+    padding: 0px !important;
+  }
+  .navbar-toggler {
+    background-color: transparent !important;
+  }
+  .navbar-toggler:focus {
+    -webkit-box-shadow: inherit !important;
+            box-shadow: inherit !important;
+  }
+  .nav-item .nav-link {
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  .nav-item .nav-link {
+    border-top: 0px solid #556EE6;
+    border-left: 0px solid #556EE6;
+    border-right: 0px solid #556EE6;
+    color: #404040 !important;
+    background: none;
+  }
+  .login-btm {
+    border-radius: 0px !important;
+    width: 100% !important;
+    text-align: left !important;
+    border-left: 0px solid #556EE6 !important;
+    border-right: 0px solid #556EE6 !important;
+  }
+  .signup-btn {
+    width: 100% !important;
+    text-align: left !important;
+    border-radius: 0px !important;
+  }
+  .custom-file-input {
+    width: 100%;
+  }
+  .contactus .contact-wrapper .contact-text .location {
+    background-size: auto;
+  }
+  .dashboard .dashboard-content .dashboard-single-block h2 {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .dashboard .dashboard-content .dashboard-single-block p {
+    font-size: 18px;
+  }
+  .dashboard .dashboard-menubar ul li a {
+    font-size: 18px;
+  }
+  .shop-highlight-wrapper {
+    text-align: center;
+  }
+  .useraboutdetails .shop-highlight .shop-highlight-wrapper .shop-desc {
+    margin: 25px 10px;
+  }
+  .useraboutdetails .shop-highlight .shop-highlight-wrapper .subscribe {
+    display: block;
+    margin: auto;
+  }
+  .useraboutdetails .aboutdetail-content .aboutdetail-menubar {
+    margin: 0;
+  }
+  .useraboutdetails .aboutdetail-content {
+    padding-bottom: 0;
+  }
+  .useraboutdetails .aboutdetail-content .userchat-content .userchat-content-wrapper .userchat-left-block {
+    width: 100%;
+  }
+  .useraboutdetails .aboutdetail-content .userchat-content .userchat-content-wrapper .userchat-right-block {
+    width: 100%;
+    margin: 30px 0;
+    padding-bottom: 40px;
+  }
+  .useraboutdetails .aboutdetail-content .userchat-content .userchat-content-wrapper .userchat-right-block .userchatting {
+    padding: 20px;
+  }
+  .useraboutdetails .aboutdetail-content .userchat-content .userchat-content-wrapper .userchat-right-block .userchatting .receiver-chat-block {
+    left: 0;
+    padding-top: 65px;
+  }
+  .useraboutdetails .aboutdetail-content .userchat-content .userchat-content-wrapper .userchat-right-block .chat-send-block {
+    margin: 0 20px;
+  }
+  .useraboutdetails .aboutdetail-content .userchat-content .userchat-content-wrapper .userchat-right-block .userchatting .receiver-chat-block:before {
+    left: 15px;
+  }
+  .vendor-shop-content .userchat-content-wrapper .userchat-left-block {
+    width: 100%;
+  }
+  .vendor-shop-content .userchat-content-wrapper .userchat-right-block {
+    width: 100%;
+    margin: 30px 0;
+    padding-bottom: 40px;
+  }
+  .vendor-shop-content .userchat-content-wrapper .userchat-right-block .userchatting {
+    padding: 20px;
+  }
+  .vendor-shop-content .userchat-content-wrapper .userchat-right-block .userchatting .receiver-chat-block {
+    left: 0 !important;
+    padding-top: 65px;
+  }
+  .vendor-shop-content .userchat-content-wrapper .userchat-right-block .userchatting .receiver-chat-block:before {
+    left: 15px;
+  }
+  .vendor-shop-content .userchat-content-wrapper .userchat-right-block .chat-send-block {
+    margin: 0 20px;
+  }
+  header .userlogout:after {
+    display: none;
+  }
+  header .userlogout .logout {
+    opacity: 1;
+    width: 188px;
+    max-width: 100%;
+  }
+  header .usermenuicon .usersubmenu {
+    display: block;
+    width: 188px;
+  }
+  header .usermenuicon:after {
+    display: none;
+  }
+  header .usermenuicon .usersubmenu li a {
+    padding-left: 30px;
+  }
+  .user-news-img {
+    width: 100%;
+  }
+  .useraboutdetails .aboutdetail-content .userchat-content .userchat-content-wrapper .userchat-left-block ul .capital-partner {
+    background: url(../images/capitalpartnet.png) no-repeat 3% 50%;
+  }
+}
+
+@media screen and (max-width: 767.5px) {
+  .userproductlist .productlisting-block .single-product .userproduct-detail p {
+    min-height: auto;
+  }
+  .reverce-column {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .browse-shop h2 {
+    color: #556EE6 !important;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 25px;
+  }
+  .browse-shop .rightbar-content p {
+    margin: 10px 0px 10px 0px;
+  }
+  .faq-content h3 {
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 30px !important;
+  }
+  .faq .accordion-body {
+    padding: 15px 1.25rem 1rem 1.25rem;
+  }
+  .client-testimonials {
+    background-size: contain;
+    padding-top: 100px !important;
+  }
+  .client-testimonials h2 {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .client-testimonials .join-us_btn {
+    float: none !important;
+    display: block;
+    width: 130px;
+    line-height: 45px;
+    font-size: 16px;
+    margin: auto;
+  }
+  .client-testimonials h3 {
+    font-size: 30px;
+  }
+  .client-testimonials .quote-text p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .client-testimonials .testimonial-userinfo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+  }
+  .carousel-indicators {
+    bottom: -40px !important;
+  }
+  .btm-info .box-info {
+    max-width: 350px;
+    margin: 0px auto 20px auto;
+  }
+  .browse-shop .rightbar-content {
+    max-width: inherit;
+  }
+  .client-testimonials .bgwhite {
+    padding: 50px 20px 00px 20px;
+  }
+  .vendor-registration .registration-data .registration-form .form-submit {
+    margin: auto;
+  }
+  .bank-info .personal-bank-info .personal-bank-info-wrapper .bank-info-form {
+    padding: 0 20px 20px 20px;
+  }
+  .bank-info .personal-bank-info .personal-bank-info-wrapper .bank-info-form .form-save {
+    margin: 0 auto 20px;
+    max-width: 100%;
+  }
+  .bank-info .personal-bank-info .personal-bank-info-wrapper .bank-info-form .connect-bank {
+    max-width: 100%;
+  }
+  .steps-section .steps-wrapper .single-step p {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+  .bank-info .steps-wrapper .container:after {
+    position: absolute;
+    content: '';
+    top: 25px;
+    background: #EEEEEE;
+    width: 65%;
+    height: 10px;
+    z-index: -1;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    left: 50% !important;
+  }
+  .bank-info .personal-bank-info .personal-bank-info-wrapper .bank-info-form .form-label {
+    font-size: 16px;
+  }
+  .shop-info .shop-text-block .shop-text-wrapper .shop-data .form-label {
+    font-size: 16px;
+  }
+  .single-plan {
+    margin-bottom: 35px !important;
+  }
+  .update-plans .plans .plan-submit {
+    margin: 0 auto 30px;
+  }
+  .update-plans .plans .plans-wrapper .single-plan .plan-footer p {
+    font-size: 16px;
+  }
+  .termscondition p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .aboutus .why-choose-us .suitable-text {
+    margin: 0;
+  }
+  .contactus .contact-wrapper {
+    padding: 50px 0;
+  }
+  .slider-home h3 {
+    font-size: 30px;
+  }
+  .faq .faq-content h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .browse-shop h4 {
+    font-size: 18px;
+  }
+  .browse-shop .rightbar-content p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "Raleway", sans-serif;
+  }
+  .aboutus .about-wrapper .about-text h3 {
+    font-size: 30px;
+  }
+  .aboutus .about-wrapper .about-text p, .aboutus .why-choose-us .why-choose-text p, .aboutus .why-choose-us .suitable-text ul li {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "Raleway", sans-serif;
+  }
+  .aboutus .why-choose-us .why-choose-text h3 {
+    font-size: 30px;
+  }
+  .aboutus .why-choose-us {
+    padding: 50px 0;
+  }
+  .aboutus .why-choose-us .suitable-text ul {
+    max-width: 100%;
+  }
+  .contactus .contact-wrapper .contact-text h3 {
+    font-size: 30px;
+  }
+  .contactus .contact-wrapper .contact-text .respond-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "Raleway", sans-serif;
+  }
+  .contactus .contact-wrapper .contact-text p, .contactus .contact-wrapper .contact-text p a {
+    font-size: 16px;
+  }
+  .contactus .send-message .send-message-data h3 {
+    font-size: 30px;
+  }
+  .contactus .send-message .send-message-data .send-msg {
+    margin: auto;
+  }
+  .dashboard .dashboard-content .dashboard-single-block {
+    max-width: 100%;
+    margin-bottom: 35px;
+  }
+  .dashboard .dashboard-menubar {
+    margin: 0;
+  }
+  .dashboard .dashboard-content .dashboard-single-block:after {
+    height: 128px;
+  }
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .shop-dashboard .shop-content h3 {
+    font-size: 30px;
+  }
+  .shop-info-blocks {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .shop-dashboard .shop-content .shop-info-blocks .shop-info-single-block {
+    margin: 0;
+  }
+  .shop-dashboard .shop-content .form-label {
+    font-size: 16px;
+  }
+  .product-pagination .pagination .previous-arrow {
+    left: 10px;
+    width: 35px;
+    height: 35px;
+    padding: 3px;
+  }
+  .product-pagination .pagination .next-arrow {
+    right: 7px;
+    width: 35px;
+    height: 35px;
+    padding: 3px;
+  }
+  .product-pagination .pagination .page-link {
+    background: transparent;
+  }
+  .viewproductpopup .modal-dialog .modal-content .modal-body .product-details .left-product-detail {
+    width: 100%;
+  }
+  .viewproductpopup .modal-dialog .modal-content .modal-body .product-details .right-product-detail {
+    width: 100%;
+    padding: 20px;
+  }
+  .carousel-item img {
+    width: 100%;
+    max-width: 90px;
+  }
+  .viewproductpopup .modal-dialog .modal-content .modal-body .product-details .right-product-detail h3 {
+    font-size: 30px;
+  }
+  .viewproductpopup .modal-dialog .modal-content .modal-body .product-details .right-product-detail p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "Raleway", sans-serif;
+  }
+  .dashboard .dashboard-content h3 {
+    font-size: 30px;
+  }
+  .vendor-email-verification .vendor-email-verification-wrapper h3 {
+    font-size: 30px;
+  }
+  .vendor-email-verification .vendor-email-verification-wrapper p {
+    font-size: 16px;
+  }
+  .vendor-email-verification .vendor-email-verification-wrapper .vendor-submit-btn {
+    max-width: 100%;
+  }
+  .user-dashboard .user-dashboard-content .user-details .usersave-change-btn {
+    float: none;
+    max-width: 100%;
+  }
+  .user-dashboard .user-menubar {
+    margin-right: 0;
+  }
+  .user-dashboard .user-menubar a.mobileactivetitle {
+    font-size: 22px;
+  }
+  .user-dashboard .user-dashboard-content h3 {
+    font-size: 30px;
+  }
+  .user-verification-data .user-verification-data-wrapper .user-submit-btn {
+    max-width: 100%;
+  }
+  .vendor-verification-data .vendor-verification-data-wrapper .vendor-submit-btn {
+    max-width: 100%;
+  }
+  .vendor-verification-data .vendor-verification-data-wrapper h3 {
+    font-size: 30px;
+  }
+  .user-verification-data .user-verification-data-wrapper h3 {
+    font-size: 30px;
+  }
+  .shop-info .steps-section .steps-wrapper .lines:after {
+    width: 220%;
+  }
+  .choose-plan-content .choose-single-block .choose-title {
+    font-size: 22px;
+  }
+  .userproductlist .productlisting-block .single-product img {
+    width: 100%;
+  }
+  .userproductlist .productlisting-block .single-product .userproduct-detail {
+    padding-left: 0;
+    margin-top: 20px;
+  }
+  .userproductlist .product-header h3 {
+    font-size: 30px;
+  }
+  .vendor-add-product .custom-selectfile {
+    max-width: 100% !important;
+  }
+  .shop-dashboard .shop-content .shop-update-btn, .vendor-add-product .product-submit-btn {
+    max-width: 100%;
+  }
+  .vendor-chat-main .chat-send-block {
+    margin: 0 20px !important;
+    padding-bottom: 0 !important;
+  }
+  .vendor-news-detail .news-detail-wrapper .comment-block .submit-comment {
+    max-width: 100%;
+  }
+  .single-subscriber-block img {
+    width: 100%;
+  }
+  .shop-dashboard, .userproductlist, .vendor-news, .vendor-chat-main, .vendor-news-detail, .vendor-subscriber, .vendor-edit-profile {
+    padding: 20px 0 !important;
+  }
+  .vendor-add-product {
+    padding: 20px 0;
+  }
+  .vendor-add-product h3 {
+    font-size: 30px;
+  }
+  .vendor-news .vendor-news-header h3 {
+    font-size: 30px;
+  }
+  .vendor-news-detail .news-detail-wrapper h3 {
+    font-size: 30px;
+  }
+  .vendor-subscriber h3 {
+    font-size: 30px;
+  }
+  .vendor-edit-btn {
+    max-width: 100% !important;
+  }
+  .vendor-edit-profile h3 {
+    font-size: 30px;
+  }
+  .user-dashboard {
+    padding: 20px 0;
+  }
+  .user-verification-data, .vendor-verification-data {
+    padding: 50px 0;
+  }
+  .vendor-news-detail .news-detail-wrapper .user-comments-list .single-comment-block {
+    padding: 20px;
+  }
+  .comments-date {
+    display: block;
+    margin-top: 10px;
+  }
+  .choose-plan-content .choose-single-block .plan-commision p {
+    font-size: 20px;
+  }
+  .choose-plan-content .choose-single-block .choose-plan-text p {
+    font-size: 16px;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 575.5px) {
+  .steps-section .container:after {
+    display: none !important;
+  }
+  .steps-section .wizzard-box .single-step {
+    position: relative;
+  }
+  .steps-section .wizzard-box .single-step img {
+    position: relative;
+    z-index: 9;
+  }
+  .steps-section .wizzard-box .active:after {
+    display: none !important;
+  }
+  .links-block {
+    text-align: center;
+  }
+  .vendor-login .login-data .login-form .links-block .login {
+    margin: 0 auto 20px;
+  }
+  .vendor-login .login-data .login-form .links-block .forgot-pwd {
+    padding-left: 0;
+  }
+  .vendor-registration .registration-data h3 {
+    font-size: 30px;
+  }
+  .vendor-login .login-data h3 {
+    font-size: 30px;
+  }
+  .bank-info .personal-bank-info .personal-bank-info-wrapper h3 {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 0;
+  }
+  .shop-info .shop-text-block .shop-text-wrapper h3 {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 0;
+  }
+  .update-plans .plans .plans-wrapper .single-plan h3 {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 0;
+  }
+  .termscondition h3 {
+    font-size: 28px;
+  }
+  .bank-info .steps-section .steps-wrapper:after {
+    display: none;
+  }
+  .shop-info .steps-section .steps-wrapper .lines:before, .shop-info .steps-section .steps-wrapper .lines:after {
+    display: none;
+  }
+  .update-plans .steps-section .steps-wrapper:after {
+    display: none;
+  }
+  .shop-info .shop-text-block .shop-text-wrapper .shop-data .form-save {
+    margin: 20px auto 0;
+    max-width: 100%;
+  }
+  .shop-info .shop-text-block .form-back {
+    margin: auto;
+    max-width: 100%;
+  }
+  .shop-dashboard .shop-content .shop-info-blocks .shop-info-single-block {
+    margin-bottom: 20px !important;
+  }
+  .steps-section .steps-wrapper .single-step p {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+  }
+  .choose-plan .steps-section .steps-wrapper .lines:after {
+    display: none;
+  }
+  .choose-plan .steps-section .steps-wrapper .grey-line:after {
+    display: none;
+  }
+  .bank-info .steps-wrapper .container:after {
+    display: none !important;
+  }
+  .update-plans .steps-section .steps-wrapper .container:after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body .client-testimonials {
+    padding-top: 60px !important;
+  }
+  .browse-shop h2 {
+    font-size: 30px !important;
+  }
+  .shop-info .shop-text-block .shop-text-wrapper .shop-data {
+    padding: 20px;
+  }
+  .dashboard .dashboard-content .dashboard-single-block:after {
+    height: 94px !important;
+  }
+}
+
+@media screen and (min-width: 575px) and (max-width: 767px) {
+  .steps-section .container:after {
+    position: absolute;
+    content: '';
+    top: 25px;
+    background: #efefef;
+    width: 72%;
+    height: 10px;
+    z-index: -1;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    left: 50% !important;
+    max-width: 450px;
+  }
+  .steps-section .wizzard-box .single-step {
+    position: relative;
+  }
+  .steps-section .wizzard-box .single-step img {
+    position: relative;
+    z-index: 99;
+  }
+  .steps-section .wizzard-box .active:after {
+    content: '';
+    position: absolute;
+    content: '';
+    top: 24px;
+    background: #556EE6;
+    width: 100%;
+    height: 10px;
+    z-index: 9;
+    left: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .steps-section .container:after {
+    position: absolute;
+    content: '';
+    top: 25px;
+    background: #efefef;
+    width: 72%;
+    height: 10px;
+    z-index: -1;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    left: 50% !important;
+    max-width: 950px;
+  }
+  .steps-section .wizzard-box .single-step {
+    position: relative;
+  }
+  .steps-section .wizzard-box .single-step img {
+    position: relative;
+    z-index: 99;
+  }
+  .steps-section .wizzard-box .active:after {
+    content: '';
+    position: absolute;
+    content: '';
+    top: 24px;
+    background: #556EE6;
+    width: 100%;
+    height: 10px;
+    z-index: 9;
+    left: 80px;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .steps-section .wizzard-box .single-step {
+    position: relative;
+  }
+  .steps-section .wizzard-box .single-step img {
+    position: relative;
+    z-index: 99;
+  }
+  .steps-section .wizzard-box .active:after {
+    content: '';
+    position: absolute;
+    content: '';
+    top: 24px;
+    background: #556EE6;
+    width: 100%;
+    height: 10px;
+    z-index: 9;
+    left: 110px;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .steps-section .wizzard-box .single-step {
+    position: relative;
+  }
+  .steps-section .wizzard-box .single-step img {
+    position: relative;
+    z-index: 99;
+  }
+  .steps-section .wizzard-box .active:after {
+    content: '';
+    position: absolute;
+    content: '';
+    top: 24px;
+    background: #556EE6;
+    width: 100%;
+    height: 10px;
+    z-index: 9;
+    left: 140px;
+  }
+}

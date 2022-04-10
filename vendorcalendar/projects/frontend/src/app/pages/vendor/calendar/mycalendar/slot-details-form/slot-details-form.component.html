@@ -1,0 +1,37 @@
+<div class="container">
+    <h4 style="padding:10pt">Slot Details</h4>
+    <div class="row">
+        <div style="margin: 5pt;" class="col-sm-12">
+            <input type="text" class="form-control" placeholder="Your Name"
+                [(ngModel)]="slotSrvs.focusedSlot.reservedWith">
+        </div>
+        <div style="margin: 5pt;" class="col-sm-12">
+            <input type="text" class="form-control" placeholder="Your Telephone"
+                [(ngModel)]="slotSrvs.focusedSlot.requesterTelephone">
+        </div>
+        <div style="margin: 5pt;" class="col-sm-12">
+            <input type="text" class="form-control" placeholder="Your Email"
+                [(ngModel)]="slotSrvs.focusedSlot.requesterEmail">
+        </div>
+        <div style="margin: 5pt;" class="col-sm-12">
+            <input type="text" class="form-control" placeholder="Meeting Title"
+                [(ngModel)]="slotSrvs.focusedSlot.title">
+        </div>
+        <div style="margin: 5pt;" class="col-sm-12">
+            <input type="text" class="form-control" placeholder="Description"
+                [(ngModel)]="slotSrvs.focusedSlot.description">
+        </div>
+        <div style="margin: 5pt;text-align: right;" class="col-sm-12">
+            <button class="btn btn-primary"
+            [disabled]="
+            slotSrvs.focusedSlot.reservedWith === '' ||
+            slotSrvs.focusedSlot.requesterTelephone === '' ||
+            slotSrvs.focusedSlot.requesterEmail === '' ||
+            slotSrvs.focusedSlot.time === '' ||
+            slotSrvs.focusedSlot.date === '' ||
+            slotSrvs.focusedSlot.description === '' 
+            "
+            (click)="reserveSlot(slotSrvs.focusedSlot.id)">Reserve Slot</button>
+        </div>
+    </div>
+</div>

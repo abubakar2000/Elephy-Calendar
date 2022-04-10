@@ -1,0 +1,10 @@
+{
+  "/backend": {
+    "target": "http://localhost:4201",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/backend": ""
+    }
+  }
+}

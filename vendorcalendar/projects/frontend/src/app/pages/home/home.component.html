@@ -1,0 +1,160 @@
+<elephy-header></elephy-header>
+<div class="slider-home" *ngIf="home_banner_info">
+  <div class="container">
+    <div class="row d-flex align-items-center justify-content-center">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+        <div class="slider-text">
+          <h3>{{home_banner_info?.content_heading}}</h3>
+          <p>{{home_banner_info?.content_desc}}</p>
+          <a href="{{home_banner_info?.content_link}}" class="common-btn btn" role="button">View More</a>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+        <img [src]="home_banner_info?.content_image|imagePath:'content'" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="browse-shop" *ngIf="browse_shop_boxes">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+        <h2 class="shop-title">Browse Shops</h2>
+      </div>
+
+      <div class="col-lg-9 col-md-9 col-sm-12 col-12">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-4" *ngFor="let shopBox of browse_shop_boxes">
+            <div class="shop-innerbox border-btm">
+              <div class="left-img">
+                <img [src]="shopBox?.content_image|imagePath:'content'" class="img-fluid">
+              </div>
+              <div class="rightbar-content">
+                <h4>{{shopBox?.content_heading}}</h4>
+                <p>{{shopBox?.content_desc}}</p>
+                <a href="{{shopBox?.content_link}}" class="view-more_shops">View More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="faq">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+        <img src="assets/images/faq.svg" class="img-fluid">
+      </div>
+
+      <div class="col-lg-8 col-md-8 col-sm-12 col-12">
+        <div class="faq-content">
+          <h3>FAQs</h3>
+
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit ?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                  et dolore magna aliqua. Ut enim ad minim veniam.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit ?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                  et dolore magna aliqua. Ut enim ad minim veniam.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit ?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                  et dolore magna aliqua. Ut enim ad minim veniam.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="client-testimonials">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12 col-12 align-self-center">
+        <a href="#" class="join-us_btn float-end">Join Us Now</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row mt-5 bgwhite">
+      <h3>Customer Stories</h3>
+      <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+        <div class="stories-left">
+          <h5>Lorem ipsum dolor sit amet, conse ctetur</h5>
+        </div>
+      </div>
+
+      <div class="col-lg-8 col-md-8 col-sm-12 col-12">
+        <carousel [isAnimated]="true" [showIndicators]="true" [noWrap]="false" [interval]="10000" id="user-testimonials"
+          class="carousel-dark">
+          
+        </carousel>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="btm-info" *ngIf="footer_info_boxes">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-12 col-12" *ngFor="let footerBox of footer_info_boxes;">
+        <div class="box-info">
+          <img [src]="footerBox?.content_image|imagePath:'content'" class="img-fluid">
+          <h3>{{footerBox?.content_heading}}</h3>
+          <p>{{footerBox?.content_desc}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<elephy-footer></elephy-footer>

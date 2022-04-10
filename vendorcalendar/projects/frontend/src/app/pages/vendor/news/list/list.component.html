@@ -1,0 +1,73 @@
+<elephy-header headerType="VENDOR"></elephy-header>
+<div class="vendor-news">
+  <div class="container">
+    <xng-breadcrumb></xng-breadcrumb>
+    <div class="vendor-news-header d-flex justify-content-between align-items-center">
+      <h3 class="mb-3 mt-3 mt-md-0">News</h3>
+      <a routerLink="/vendor/news/add" class="add-new-news">Add New</a>
+    </div>
+    <div class="row" *ngIf="isLoading">
+      <div class="col" align="center">
+        Please wait..
+      </div>
+    </div>
+    <ng-container *ngIf="!isLoading">
+      <div class="row" *ngIf="vendorNews.length > 0">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-12 mb-4" *ngFor="let news of vendorNews">
+          <div class="news-single-block d-lg-flex">
+            <div class="news-featuredimg">
+              <a routerLink="/vendor/news/view/{{news.news_id}}">
+                <img [src]="news.news_banner|imagePath:'vendor_news':true" class="vendor-news-img"
+                  onerror="this.src='assets/images/no-images/news-banner-list.png'" />
+              </a>
+            </div>
+            <div class="news-excerpt">
+              <h4 class="news-title"><a routerLink="/vendor/news/view/{{news.news_id}}">{{news.news_heading}}</a></h4>
+              <p>{{news.short_content}}</p>
+              <div class="news-action-btns">
+                <strong>Status:</strong> {{news.news_status == '1' ? 'Published' : 'Draft'}}
+                <span class="text-end">
+                  <a routerLink="/vendor/news/edit/{{news.news_id}}" class="news-edit">
+                    <fa-icon [icon]="faPenAltIcon"></fa-icon> Edit
+                  </a>
+                  <a (click)="deleteNews(news.news_id)" href="javascript:void(0);" class="news-delete">
+                    <fa-icon [icon]="faTrashAltIcon"></fa-icon> Delete
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" *ngIf="!vendorNews.length">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-12 mb-4" align="center">
+          No news found. Please add news.
+        </div>
+      </div>
+    </ng-container>
+    <!-- <div class="product-pagination mt-3">
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link previous-arrow" href="#" aria-label="Previous">
+              <span aria-hidden="true"><img src="assets/images/leftpaginationarrow.svg"></span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link odd active" href="#">1</a></li>
+          <li class="page-item"><a class="page-link even" href="#">2</a></li>
+          <li class="page-item"><a class="page-link odd" href="#">3</a></li>
+          <li class="page-item"><a class="page-link even" href="#">4</a></li>
+          <li class="page-item"><a class="page-link even" href="#">...</a></li>
+          <li class="page-item"><a class="page-link even" href="#">54</a></li>
+          <li class="page-item"><a class="page-link odd" href="#">55</a></li>
+          <li class="page-item">
+            <a class="page-link next-arrow" href="#" aria-label="Next">
+              <span aria-hidden="true"><img src="assets/images/rightpaginationarrow.svg"></span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div> -->
+  </div>
+</div>
+<elephy-footer></elephy-footer>

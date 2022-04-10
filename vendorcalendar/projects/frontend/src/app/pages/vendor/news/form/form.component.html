@@ -1,0 +1,26 @@
+<elephy-header headerType="VENDOR"></elephy-header>
+<form [formGroup]="addUpdateForm">
+  <div class="vendor-add-product pb-5">
+    <div class="container">
+      <xng-breadcrumb></xng-breadcrumb>
+      <h3 class="mb-3 mt-4 mt-md-0">{{formType == 'ADD' ? 'Add' : 'Update'}} News</h3>
+      <div class="vendor-add-content">
+        <div [ngClass]="{'mb-4': true, 'was-validated': (isSubmitted && f.news_heading.errors)}">
+          <label for="shop name" class="form-label">Title</label>
+          <input type="text" formControlName="news_heading"
+            [ngClass]="{'form-control': true, 'is-invalid': (isSubmitted && f.news_heading.errors)}" />
+          <div class="invalid-feedback">
+            Please enter news title.
+          </div>
+        </div>
+        <div class="mb-4">
+          <label for="shop name" class="form-label">Description</label>
+          
+        </div>
+        <button type="button" (click)="saveNews()" class="btn btn-lg btn-primary" *ngIf="formType == 'ADD' || news.news_status != '1'">Preview</button>&nbsp;
+        <button type="button" (click)="saveAndPublish()" class="btn btn-lg btn-primary">Publish</button>
+      </div>
+    </div>
+  </div>
+</form>
+<elephy-footer></elephy-footer>

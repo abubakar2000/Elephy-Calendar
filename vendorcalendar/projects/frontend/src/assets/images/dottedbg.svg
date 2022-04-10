@@ -1,0 +1,85 @@
+<svg width="345" height="212" viewBox="0 0 345 212" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="69" height="53" fill="url(#pattern0)"/>
+<rect y="106" width="69" height="53" fill="url(#pattern1)"/>
+<rect y="53" width="69" height="53" fill="url(#pattern2)"/>
+<rect y="159" width="69" height="53" fill="url(#pattern3)"/>
+<rect x="69" y="53" width="69" height="53" fill="url(#pattern4)"/>
+<rect x="69" y="159" width="69" height="53" fill="url(#pattern5)"/>
+<rect x="69" width="69" height="53" fill="url(#pattern6)"/>
+<rect x="69" y="106" width="69" height="53" fill="url(#pattern7)"/>
+<rect x="138" width="69" height="53" fill="url(#pattern8)"/>
+<rect x="138" y="106" width="69" height="53" fill="url(#pattern9)"/>
+<rect x="207" width="69" height="53" fill="url(#pattern10)"/>
+<rect x="207" y="106" width="69" height="53" fill="url(#pattern11)"/>
+<rect x="276" width="69" height="53" fill="url(#pattern12)"/>
+<rect x="276" y="106" width="69" height="53" fill="url(#pattern13)"/>
+<rect x="138" y="53" width="69" height="53" fill="url(#pattern14)"/>
+<rect x="138" y="159" width="69" height="53" fill="url(#pattern15)"/>
+<rect x="207" y="53" width="69" height="53" fill="url(#pattern16)"/>
+<rect x="207" y="159" width="69" height="53" fill="url(#pattern17)"/>
+<rect x="276" y="53" width="69" height="53" fill="url(#pattern18)"/>
+<rect x="276" y="159" width="69" height="53" fill="url(#pattern19)"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="scale(0.0144928 0.0188679)"/>
+</pattern>
+<pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="scale(0.0144928 0.0188679)"/>
+</pattern>
+<pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="scale(0.0144928 0.0188679)"/>
+</pattern>
+<pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="scale(0.0144928 0.0188679)"/>
+</pattern>
+<pattern id="pattern4" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="scale(0.0144928 0.0188679)"/>
+</pattern>
+<pattern id="pattern5" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="scale(0.0144928 0.0188679)"/>
+</pattern>
+<pattern id="pattern6" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="scale(0.0144928 0.0188679)"/>
+</pattern>
+<pattern id="pattern7" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="scale(0.0144928 0.0188679)"/>
+</pattern>
+<pattern id="pattern8" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="scale(0.0144928 0.0188679)"/>
+</pattern>
+<pattern id="pattern9" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="scale(0.0144928 0.0188679)"/>
+</pattern>
+<pattern id="pattern10" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="scale(0.0144928 0.0188679)"/>
+</pattern>
+<pattern id="pattern11" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="scale(0.0144928 0.0188679)"/>
+</pattern>
+<pattern id="pattern12" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="scale(0.0144928 0.0188679)"/>
+</pattern>
+<pattern id="pattern13" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="scale(0.0144928 0.0188679)"/>
+</pattern>
+<pattern id="pattern14" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="scale(0.0144928 0.0188679)"/>
+</pattern>
+<pattern id="pattern15" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="scale(0.0144928 0.0188679)"/>
+</pattern>
+<pattern id="pattern16" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="scale(0.0144928 0.0188679)"/>
+</pattern>
+<pattern id="pattern17" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="scale(0.0144928 0.0188679)"/>
+</pattern>
+<pattern id="pattern18" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="scale(0.0144928 0.0188679)"/>
+</pattern>
+<pattern id="pattern19" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="scale(0.0144928 0.0188679)"/>
+</pattern>
+<image id="image0" width="69" height="53" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEUAAAA1CAYAAAAXryboAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAI5JREFUeNrs2jEKwkAQhtEQ7Oz3FjZWNh4hCPGeQtzGU9h7Cxt7x8rG2E0x8B78pPsIS5qEDNO8tNh+SFC1vYkdY88hxyH2qtYeYz32yIj3y+kal3u1NgAAAMA/07ycYzvtr9Fj8fvEt9oAAADA+it4S/wQVLKd/XtXyfbnUG6xlnTjvWgbAAAAYM1bgAEAkz8wPaf5eyAAAAAASUVORK5CYII="/>
+</defs>
+</svg>

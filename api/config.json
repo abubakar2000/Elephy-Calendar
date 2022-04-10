@@ -1,0 +1,19 @@
+﻿{
+  "database": {
+    "host": "192.241.157.228",
+    "port": 3306,
+    "user": "elephyAdmin",
+    "password": "elephyAPI",
+    "database": "upwork"
+  },
+  "secret": "ANYSTRING",
+  "emailFrom": "upworkprojects6@gmail.com",
+  "smtpOptions": {
+    "host": "smtp.gmail.com",
+    "port": 587,
+    "auth": {
+      "user": "upworkprojects6@gmail.com",
+      "pass": "dmnetioycrbweesn"
+    }
+  }
+}

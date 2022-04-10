@@ -1,0 +1,40 @@
+<div style="min-height: 10vh;width: 100%;border: 1px solid rgb(220,220,220);
+padding: 10pt;color: gray;margin-top: 10pt;margin-bottom: 10pt;">
+    <div>
+        Slot: <b>{{slotObject.date}} @ {{slotObject.time}}</b>
+    </div>
+    <div>
+        Vendor: <b>{{slotObject.addedBy}}</b>
+    </div>
+    <div style="text-align: right;">
+        <div class="btn-group">
+            <!-- <button [disabled]="slotObject.reservedWith !== ''" class="btn-primary btn" (click)="reserveSlot(slotObject.id)">
+                {{slotObject.reservedWith !== ''?'Slot Reserved':'Reserve'}}
+            </button> -->
+            <button class="btn-danger btn" (click)="removeSlot(slotObject)">
+                Delete
+            </button>
+            <button [disabled]="slotSrvs.focusedSlot.id === slotObject.id" class="btn-primary btn" (click)="SelectSlot(slotObject.id)">
+                Select
+            </button>
+            <button [disabled]="slotObject.approved" class="btn-outline-success btn" (click)="ApproveSlot(slotObject)">
+                Approve
+            </button>
+            <button [disabled]="!slotObject.approved" class="btn-outline-danger btn" (click)="DisapproveSlot(slotObject)">
+                Disapprove
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- 
+
+      {{slotObject.id}}
+        {{slotObject.title}}
+        {{slotObject.addedBy}}
+        {{slotObject.date}}
+        {{slotObject.time}}
+        {{slotObject.reservedWith}}
+        {{slotObject.description}}
+        {{slotObject.requestorTelephone}}
+ -->
